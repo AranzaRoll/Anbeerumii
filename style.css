@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Pacifico&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Neucha&family=Pacifico&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Neucha&family=Pacifico&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Sofia&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #F1EAFF;
+    margin: 10px 10px 10px 0
+}
+body {
+    background-color: #FFFBF5;
+    background-image: url(./imagenes/flo.png);
+    background-size: 150px;
+    backface-visibility: inherit;
+
+}
+a{
+    text-decoration: none;
+    color: #3E065F;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    font-family: "Cookie", cursive;
+    font-weight: bolder;
+}
+header ul li{
+    margin: 10px;
+}
+.i img{
+    width: 150px;
+}
+.presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1EAFF;
+}
+.presentacion h1{
+    color: #810CA8;
+    font-family: "Cookie", cursive;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: "Neucha", cursive;
+    color: #C147E9;
+    font-weight: bolder;
+
+}
+.presentacion img{
+    width: 300px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #F1EAFF;
+}
+.contenedor h1{
+    font-family: "Leckerli One", cursive;
+    color: #810CA8;
+
+}
+.flor{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flor img{
+    width: 200px;
+}
+.flor p{
+    font-size: 18px;
+    font-family: "Neucha", cursive;
+    color: #A555EC;
+    font-weight: bolder;
+}
+.flor a{
+    color: #db6eff;
+}
+.ramo{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ramo img{
+    width: 200px;
+}
+.ramo p{
+    font-size: 18px;
+    font-family: "Neucha", cursive;
+    color: #A555EC;
+    font-weight: bolder;
+}
+.ramo a{
+    color: #db6eff;
+}
+.bouquet{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bouquet img{
+    width: 200px;
+}
+.bouquet p{
+    font-size: 18px;
+    font-family: "Neucha", cursive;
+    color: #A555EC;
+    font-weight: bolder;
+}
+.bouquet a{
+    color: #db6eff;
+}
+button{
+    background-color: #E5B8F4;
+    color: whitesmoke;
+    padding: 5pax;
+    width: 75px;
+    cursor: pointer;
+}
+.A {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #F1EAFF;
+}
+.A h1{
+    color: #810CA8;
+    font-family: "Cookie", cursive;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.P { 
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.R{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.R img{
+    border-radius: 5%;
+}
+.btn-primary {
+    border: solid 1px #D0A2F7;
+    background-color: #bd87ec;
+  }
+  
+  .btn-primary:focus,
+  .btn-primary:hover {
+    box-shadow: none;
+    border: solid 1px #D0A2F7;
+    background-color: #bd87ec;
+  }
+.Dinero{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #F1EAFF;
+    justify-content: space-between;
+}
+.f {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F1EAFF;
+
+}
+.f h1{
+    color: #810CA8;
+    font-family: "Cookie", cursive;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.d{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.d img{
+    display: flex;
+    flex-direction: row;
+    justify-self: left;
+    align-self: flex-start;
+    width: 300px;
+}
+.d ul {
+
+    justify-self: right;
+    align-self: baseline;
+    list-style: none;
+    font-size: 25px;
+    font-family: "Neucha", cursive;
+    color: #A555EC;
+    font-weight: bolder;
+
+}
+.d ul li{
+
+    margin: 30px 10px 10px 50px;
+
+}
+#w{
+    color: #F32424;
+}
+.cotizar{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #F1EAFF;
+}
+.cotizar h1{
+    color: #810CA8;
+    font-family: "Cookie", cursive;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.cotizar p{
+    font-size: 22px;
+    font-family: "Neucha", cursive;
+    color: #A555EC;
+    font-weight: bolder;
+}
+.cotizar ol{
+    font-size: 22px;
+    font-family: "Neucha", cursive;
+    color: #A555EC;
+    font-weight: bolder;
+}
+#h{
+    color: #F32424;
+}
+.ejemplo{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ejemplo img{
+    border-radius: 5%;
+}
+.lav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #F1EAFF;
+}
+.lav h1{
+    color: #810CA8;
+    font-family: "Cookie", cursive;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.o { 
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+.o h1{
+    align-self: center;
+    justify-self: center;
+}
+.o ol{
+    margin: 10px 0 0 10px;
+    font-size: 22px;
+    font-family: "Neucha", cursive;
+    font-weight: bolder;
+    color: #A555EC;
+}
+.o p{
+    font-size: 35px;
+    font-family: "Cookie", cursive;
+
+    color: #C147E9;
+}
+.e video{
+    justify-self: right;
+    margin: 90px 90px 0 0;
+
+}
+.entregas{
+   
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #F1EAFF; 
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.e{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.e h1{
+    color: #810CA8;
+    font-family: "Cookie", cursive;
+    font-weight: bolder;
+    font-size: 80px;
+ 
+}
+.e h2{
+    font-family: "Sofia", cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #f157ff;
+ 
+}
+.e p{
+    font-size: 22px;
+    font-family: "Neucha", cursive;
+    color: #A555EC;
+    font-weight: bolder;     
+}
+
+#u h1{
+    color: #810CA8;
+    font-family: "Cookie", cursive;
+    font-weight: bolder;
+    font-size: 70px;
+    align-self: center;
+    justify-self: center;
+}
+#we {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#we iframe{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: #F1EAFF;
+    margin: 10px 10px 10px 0
+}
+footer p{
+    font-family: "Sofia", cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #A555EC;
+}

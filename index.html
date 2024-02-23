@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+    <title>Anbeerumii</title>
+
+</head>
+<body>
+    <header>
+        <div class="i">
+            <img src="./imagenes/log.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <a href=""><li>Home</li></a>
+                <a href="https://www.instagram.com/anbeerumii?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><li>Contacto</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="presentacion">
+        <h1>¿Quiénes somos?</h1>
+        <img src="./imagenes/logo.png" alt="lo">
+        <p>Anbeerumii es un emprendimiento enfocado al arte hecho a mano del crochet, dedicado a realizar obras que brinden amor y alegría a tus seres queridos.</p>
+
+    </div>
+
+    <div class="contenedor">
+
+            <div class="flor">
+                <img src="./imagenes/flor.png" alt="f">
+                <h1>Flores</h1>
+                <p>Escoge tus flores favoritas dando click <a href="https://www.canva.com/design/DAF9fDrKcrc/peySvgVh2X1ezKCoC7Z5WA/view?utm_content=DAF9fDrKcrc&utm_campaign=designshare&utm_medium=link&utm_source=editor">aquí</a></p>
+                <div id="contenido">
+                    <p> El precio de cada flor es individual. Sí deseas armar tu ramo se te cobrara de acuerdo a la cantidad de flores escogidas.
+                        Se te notificarán los colores disponibles de las flores que escojas.</p>            
+                </div>
+                <button onclick='muestra_oculta("contenido")' class="btn btn-primary" form="contenido">+</button>
+            </div>
+            <div class="ramo">
+                <img src="./imagenes/ramo.png" alt="r">
+                <h1>Ramos temáticos</h1>
+                <p><a href="https://www.canva.com/design/DAF9fZU__nU/-KBvaxfAuYctewO1iLpbaw/view?utm_content=DAF9fZU__nU&utm_campaign=designshare&utm_medium=link&utm_source=editor">Aquí</a> encontrarás variedad de modelos de ramos ya armados.</p>
+                <div id="contenido2">
+                    <p>No se le pueden agregar o quitar flores u/o decoraciones al ramo.
+                        Estos precios ya incluyen la decoración (papel kraft, china y listón)</p>
+                </div>
+                <button onclick='muestra_oculta("contenido2")' class="btn btn-primary" form="contenido">+</button>
+            
+            </div>
+            <div class="bouquet">
+                <img src="./imagenes/bouquet.png" alt="d">
+                <h1>Bouquets Florales</h1>
+                <p><a href="https://www.canva.com/design/DAF9jO_Incc/mNSHIc32MQRb7e04yF5oNw/view?utm_content=DAF9jO_Incc&utm_campaign=designshare&utm_medium=link&utm_source=editor">Aquí</a> encontraras lo que coloquialmente se les dice ramos buchones.</p>
+                <div id="contenido3">
+                    <p> Al ser ramos complejos, no se les puede hacer ninguna modifiación de coo sean según su imagen de referencia. 
+                        Estos precios ya incluyen la decoración (Papel kraft, china y liston)</p>    
+                </div>
+                <button onclick='muestra_oculta("contenido3")' class="btn btn-primary" form="contenido">+</button>
+              
+            </div>
+
+    </div>
+
+    <div class="A">
+        <div class="P">
+            <h1> Proceso Amigurumis</h1>
+            <video width="200" height="360" controls>
+                <source src="./video/Amigurumi.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="R">
+            <h1>Resultado</h1>
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <center><img src="./imagenes/Carrusel/b.jpg" class="d-block w-50" alt="..."></center>
+                    </div>
+                    <div class="carousel-item">
+                        <center><img src="./imagenes/Carrusel/c.jpg" class="d-block w-50" alt="..."></center>
+                    </div>
+                    <div class="carousel-item">
+                        <center><img src="./imagenes/Carrusel/m.jpg" class="d-block w-50" alt="..."></center>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div>  
+    
+    <div class="cotizar">
+        <h1> ¿Cómo cotizar? </h1>
+        <p> Para cotizar en Anbeerumii es necesario ir al perfil de instagram y mandar un DM.</p>
+        <ol>
+            <li>Específica que tipo de trabajo quieres (llavero, flores, amigurumi)</li>
+            <li>Danos la idea que quieras ya sea de nuestro Feed o de otra plataforma</li>
+            <li>Te diremos si está disponible en Stock o será sobre pedido</li>
+        </ol>
+        <p id="h">NOSOTROS TE ESPECIFICAREMOS LA ALTURA FINAL (CM) DE TU AMIGURUMI</p>
+
+        <div class="ejemplo">
+            <h1>Ejemplos de cotizaciones</h1>
+            <div id="carouselexamplecontrols" class="carousel slide2" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <center><img src="./imagenes/carousel/pr.png" class="d-block w-25" alt="p"></center>
+                    </div>
+                    <div class="carousel-item">
+                        <center><img src="./imagenes/carousel/t.png" class="d-block w-25" alt="p"></center>
+                    </div>
+                    <div class="carousel-item">
+                        <center><img src="./imagenes/carousel/cp.png" class="d-block w-25" alt="p"></center>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselexamplecontrols" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselexamplecontrols" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="f"> 
+        <h1>Formas de pago</h1>
+    </div>
+    
+
+    <div class="Dinero">
+        <div class="d">
+       
+            <img src="./imagenes/dinero.png" alt="dinero">
+            <nav>
+                <ul>
+                    <li>El pedido se aparta con un 50% del precio total y un día antes de la entrega se líquida.</li>
+                    <li id="w">Sí no se liquida el pago no se hará entrega del pedido.</li>
+                    <li>Se puede pagar mediante transferencia o depósito en OXXO</li>
+                </ul>
+            </nav>
+
+        </div>
+        
+
+    </div>
+
+    <div class="lav">
+        <div class="o">
+            <h1> ♡ Tips para lavar a tus amigurumis ♡ </h1>
+            <nav>
+                <ol>
+                    <li>Lavar siempre a mano con agua fría o tibia</li>
+                    <li>Usar jabón en polvo neutro, jabón para trastes o shampoo sin parabenos</li>
+                    <li>Frotar suavemente las manchas con una esponja lisa</li>
+                    <li>Enjuaguar bien</li>
+                    <li>Dejar secar sobre una toalla limpia al aire libre en la sombra</li>
+                </ol>
+            </nav>
+            <br>
+            <p>Si sigues estos consejos, la vida de tus amigurumis será larga ♡</p>
+
+        </div>
+        <div class="e">
+            <video  width="300" height="360" controls>
+                <source src="./video/lavar.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+    </div>
+
+    <div class="entregas">
+        <div class="e">
+           <h1>¿Dónde hacemos entregas?</h1>
+           <h2>¡Próximamente envíos nacionales!</h2>
+           <p>Se harán solamente ENTREGAS PERSONALES los días SÁBADOS</p>
+           <p>Se les notificará el horario único de entrega y solo tendrán 15 min de tolerancia.</p>
+        </div>
+
+        <div id="u">
+                  
+            <h1>Opciones de entrega</h1>
+
+        </div>
+        
+        <div id="we">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2699.397894384056!2d-98.90064842661936!3d19.452404540051706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e6c940eae329%3A0x513e89f29cdbb47b!2sCentro%20Cultural%20Mexiquense%20Bicentenario!5e1!3m2!1ses-419!2smx!4v1708667127983!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191.8093837564811!2d-98.88303189256317!3d19.51282494039819!2m3!1f0!2f44.98947778229673!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x85d1e7a7a346c29d%3A0x9022698255f42430!2sTexcoco%20Centro!5e1!3m2!1ses-419!2smx!4v1708667211719!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d673.1348021734026!2d-98.91665608682489!3d19.55207533142848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e8b1b5a00d85%3A0x1dce3e44e7258f93!2sPlaza%20Principal%20Atenco!5e1!3m2!1ses-419!2smx!4v1708667352680!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Anbeerumii, Anbee's crochet. Arte hecha a mano ❧</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
